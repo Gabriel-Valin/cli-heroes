@@ -37,11 +37,11 @@ describe('Suite de manipulacao de herois', () => {
         deepEqual(atual, expected)
     })
 
-    it('deve remover um heroi, usando arquivos', async () => {
-        const expected = true
-        const resultado = await database.remover(DEFAULT_MOCK_HEROI.id)
-        deepEqual(resultado, expected)
-    })
+    // it('deve remover um heroi, usando arquivos', async () => {
+    //     const expected = true
+    //     const resultado = await database.remover(DEFAULT_MOCK_HEROI.id)
+    //     deepEqual(resultado, expected)
+    // })
 
     it('deve atualizar um heroi, usando arquivos', async () => {
         const heroiParaAtualizar = {
